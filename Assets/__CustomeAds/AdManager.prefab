@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8312132126902763732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8312132126902763731}
+  - component: {fileID: 8312132126902763730}
+  - component: {fileID: 8312132126902763733}
+  m_Layer: 0
+  m_Name: AdManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8312132126902763731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8312132126902763732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1229.9978, y: 614.2805, z: -1698.125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8312132126902763730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8312132126902763732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ab989b9b90bf74d8b0a548e58fe224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameID: ca-app-pub-4985960383417873~2456728710
+  UnityAdId: 4457113
+  bannerAdId1: ca-app-pub-4985960383417873/8830565375
+  bannerAdId2: ca-app-pub-4985960383417873/4699748670
+  bannerAdId3: ca-app-pub-4985960383417873/9760503667
+  bannerAdId4: ca-app-pub-4985960383417873/3989302234
+  bannerAdId5: ca-app-pub-4985960383417873/5629686962
+  InterstitialAdID: ca-app-pub-4985960383417873/9050057223
+  rewarded_Ad_ID: ca-app-pub-4985960383417873/7736975557
+  boxbannerpos: 0
+--- !u!114 &8312132126902763733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8312132126902763732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a871a90298dfb744bb6360ce8b859293, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AdmobPriorityInter: 1
+  UnityPriorityInter: 0
+  AdmobPriorityRewarded: 0
+  UnityPriorityRewarded: 1
